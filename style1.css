@@ -1,0 +1,17 @@
+header{
+    background: green;   /*background for any desktop is green*/
+    padding: 20px;   /*internal spacing set to 20px*/
+    color: white; /*color text is white*/
+}
+@media screen and (max-width: 450px) /*media query added
+and max width set to 450px,until which the header background will remain
+blue color*/
+{
+    header
+    {
+        background: blue;
+    }
+}
+body{
+    margin: 0px; /*unwanted spacies of body is removed*/
+}
